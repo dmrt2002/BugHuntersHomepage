@@ -523,3 +523,10 @@ html {
     top: 50%;
     left: 4%;
   }
+    h1{
+  animation: none;
+}
+body
+{
+  font-family: 'Montserrat',sans-serif;
+}
