@@ -1351,3 +1351,10 @@ p:first-letter{
   color: white;
   padding-top: 50px;
 }
+h1{
+  animation: none;
+}
+body
+{
+  font-family: 'Montserrat',sans-serif;
+}
