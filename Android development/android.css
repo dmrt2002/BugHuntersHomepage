@@ -526,7 +526,7 @@ html {
     h1{
   animation: none;
 }
-body
+body,p
 {
   font-family: 'Montserrat',sans-serif;
 }
