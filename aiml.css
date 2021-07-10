@@ -398,3 +398,10 @@ background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%
     rgba(0, 0, 0, 0.5)
   ),linear-gradient(to left, #1d4350, #a43931); 
 }
+h1{
+  animation: none;
+}
+body
+{
+  font-family: 'Montserrat',sans-serif;
+}
