@@ -401,7 +401,7 @@ background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%
 h1{
   animation: none;
 }
-body
+body,p
 {
   font-family: 'Montserrat',sans-serif;
 }
