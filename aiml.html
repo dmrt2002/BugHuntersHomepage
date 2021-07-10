@@ -111,65 +111,98 @@
   </main>
 </div>
 a>
-       <!-- Footer -->
+      <!-- Footer -->
+    <script src="https://tholman.com/elevator.js/elevator.js"></script> 
+   <script src="webdev.js"></script>  
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
     <style type="text/css">
-    .footerhead{
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font-size: 34px;
+      .footerhead{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 34px;
+  
+      }
+      .elevator svg
+      {
+        fill: white;
+      }
+      .elevator svg{
+        width: 40px;
+        height: 40px;
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
 
-    }
-    </style>
-<footer id="footer">
-  <div class="container text-center">
-      <div class="back-to-top">
-               <div class="elevator">
-           <svg class="sweet-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" height="100px" width="100px">
-                 <path d="M70,47.5H30c-1.4,0-2.5,1.1-2.5,2.5v40c0,1.4,1.1,2.5,2.5,2.5h40c1.4,0,2.5-1.1,2.5-2.5V50C72.5,48.6,71.4,47.5,70,47.5z   M47.5,87.5h-5v-25h5V87.5z M57.5,87.5h-5v-25h5V87.5z M67.5,87.5h-5V60c0-1.4-1.1-2.5-2.5-2.5H40c-1.4,0-2.5,1.1-2.5,2.5v27.5h-5  v-35h35V87.5z"/>
-                 <path d="M50,42.5c1.4,0,2.5-1.1,2.5-2.5V16l5.7,5.7c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7c1-1,1-2.6,0-3.5l-10-10  c-1-1-2.6-1-3.5,0l-10,10c-1,1-1,2.6,0,3.5c1,1,2.6,1,3.5,0l5.7-5.7v24C47.5,41.4,48.6,42.5,50,42.5z"/>
-             </svg>
+      }
+      .about-us {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+      }
+      
+      </style>
+  <footer id="footer">
+    <div class="container text-center">
+        <div class="back-to-top">
+                 <div class="elevator" style="cursor: pointer">
+                  <svg class="sweet-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve" height="100px" width="100px">
+                    <path d="M70,47.5H30c-1.4,0-2.5,1.1-2.5,2.5v40c0,1.4,1.1,2.5,2.5,2.5h40c1.4,0,2.5-1.1,2.5-2.5V50C72.5,48.6,71.4,47.5,70,47.5z   M47.5,87.5h-5v-25h5V87.5z M57.5,87.5h-5v-25h5V87.5z M67.5,87.5h-5V60c0-1.4-1.1-2.5-2.5-2.5H40c-1.4,0-2.5,1.1-2.5,2.5v27.5h-5  v-35h35V87.5z"></path>
+                    <path d="M50,42.5c1.4,0,2.5-1.1,2.5-2.5V16l5.7,5.7c0.5,0.5,1.1,0.7,1.8,0.7s1.3-0.2,1.8-0.7c1-1,1-2.6,0-3.5l-10-10  c-1-1-2.6-1-3.5,0l-10,10c-1,1-1,2.6,0,3.5c1,1,2.6,1,3.5,0l5.7-5.7v24C47.5,41.4,48.6,42.5,50,42.5z"></path>
+                </svg>
+           </div>
          </div>
        </div>
-     </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="footerhead">
-          <bold>ABOUT US</bold>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="footerhead">
+            <strong>ABOUT US</strong>
+          </div>
+          <address>
+           <p>
+            <strong class="about-us">Bug Hunters</strong> <br/>
+            RR Nagar,
+            Banglore -
+            560085 <br/>
+            PhoneNumber: 9987567891 <br/>
+            Landline: 04842714038</p>
+          </address>
+          <br><br><br>
         </div>
-        <div>City:banglore</div>
-        <div>State:Karnataka</div>
-        <div>Zip-code:21201</div>
-        <div>PhoneNumber: 9987567891</div>
-        <div>Landline: 04842714038</div>
-        <br><br><br>
-      </div>
-      <div class="col-lg-4">
-        <div class="footerhead">
-          <bold>LINKS</bold>
+        <div class="col-lg-4">
+          <div class="footerhead">
+            <bold>LINKS</bold>
+          </div>
+          <a href="index.html" style="text-decoration: none; color: white;">HOME</a><br>
+          <a href="cp.html" style="text-decoration: none; color: white;">COMPETITIVE PROGRAMMING</a><br>
+          <a href="webdev.html" style="text-decoration: none; color: white;">WEB DEVELOPMENT</a><br>
+          <a href="androiddev.html"style="text-decoration: none; color: white;">ANDROID DEVELOPMENT</a><br>
+          <a href="aiml.html" style="text-decoration: none; color: white;">AIML</a><br>
         </div>
-        <a href="index.html">HOME</a><br>
-        <a href="cp.html">COMPETITIVE PROGRAMMING</a><br>
-        <a href="webdev.html">WEB DEVELOPMENT</a><br>
-        <a href="androiddev.html">ANDROID DEVELOPMENT</a><br>
-        <a href="">AIML</a><br>
-      </div>
-      <br><br><br>   <br><br><br>
-      <div class="col-lg-4">
-        <div class="footerhead">
-          <bold>CONTACT US</bold>
+        <div class="col-lg-4">
+          <div class="footerhead">
+            <bold>CONTACT US</bold>
+            <br>
+            <a href="https://www.linkedin.com/uas/login?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Fm%2Fcompany%2Fbug-huntersofficial" target="blank">
+            <i class="fa fa-linkedin-square"style="font-size:48px;color:blue"></i></a>&nbsp;&nbsp;&nbsp;
+
+
+            <a href="https://www.instagram.com/the_bug_hunters/" target="blank">
+            <i class="fa fa-instagram" style="font-size:48px;color:red"></i></a>&nbsp;&nbsp;&nbsp;
+
+            <i class="fa fa-github" style="font-size:48px"></i>&nbsp;&nbsp;&nbsp;
+
+            <i class="fa fa-facebook-square" style="font-size:48px;color:blue"></i>
+
+          </div>
           <br>
-          <i class="fa fa-linkedin-square"style="font-size:48px;color:blue"></i>&nbsp;&nbsp;&nbsp;
-          <i class="fa fa-instagram" style="font-size:48px;color:red"></i>&nbsp;&nbsp;&nbsp;
-          <i class="fa fa-github" style="font-size:48px"></i>&nbsp;&nbsp;&nbsp;
-          <i class="fa fa-facebook-square" style="font-size:48px;color:blue"></i>
-        </div>
-        <br><br><br><br>
-        </div>
-        <br>
-     </div>
-      <br><br>
+          </div>
+          <br>
+       </div>
+    
+      </div>
     </div>
-  </div>
-</footer>
+    <div>
+     <p style="font-family: monospace; text-align: center; font-style: italic; color: white;"> &copy;&nbsp;Bug Hunters</p>
+    </div>
+  </footer>
 </body>
 </html>
