@@ -1033,7 +1033,13 @@ font-family: 'Quicksand', sans-serif;
 }
 
 
-
+h1{
+  animation: none;
+}
+body
+{
+  font-family: 'Montserrat',sans-serif;
+}
 
 
 
